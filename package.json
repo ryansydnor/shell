@@ -1,0 +1,54 @@
+{
+  "name": "shell",
+  "version": "0.0.0",
+  "description": "spin up new websites quickly",
+  "main": "web.js",
+  "scripts": {
+    "install": "./node_modules/bower/bin/bower install"
+  },
+  "config": {
+    "unsafe-perm": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SL4YT1M3/shell.git"
+  },
+  "keywords": [
+    "shell",
+    "angular",
+    "web"
+  ],
+  "author": "sl4yt1m3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SL4YT1M3/shell.git"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "bower": "^1.3.6",
+    "express": "^4.10.2",
+    "fs": "0.0.2",
+    "glob": "^4.2.1",
+    "gulp": "^3.8.5",
+    "gulp-changed": "^0.4.0",
+    "gulp-clean": "^0.3.0",
+    "gulp-embedlr": "^0.5.2",
+    "gulp-html-replace": "^1.1.0",
+    "gulp-karma": "^0.0.4",
+    "gulp-less": "^1.2.3",
+    "gulp-livereload": "^2.1.1",
+    "gulp-uglify": "^0.3.1",
+    "gzippo": "^0.2.0",
+    "karma": "^0.12.16",
+    "karma-jasmine": "^0.1.5",
+    "karma-requirejs": "^0.2.2",
+    "less": "^1.7.3",
+    "logfmt": "^1.1.2",
+    "path": "^0.4.9",
+    "requirejs": "^2.1.14"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^2.1.1"
+  }
+}
