@@ -5,6 +5,5 @@ node_modules/
 bower_components/
 build/
 .idea/
-ui/app/lib
 .DS_Store
 *.log
