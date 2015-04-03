@@ -3,7 +3,7 @@ bin/
 *.pyc
 node_modules/
 bower_components/
-build/
+/build/
 .idea/
 .DS_Store
 *.log
