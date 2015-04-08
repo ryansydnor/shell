@@ -4,6 +4,7 @@
   "description": "spin up new websites quickly",
   "main": "web.js",
   "scripts": {
+    "preinstall": "sudo npm i -g gulp",
     "install": "./node_modules/bower/bin/bower install"
   },
   "config": {

@@ -10,7 +10,7 @@ var acornsDir = buildDir +'/acorns';
 var app = express();
 app.use(gzippo.staticGzip(buildDir));
 app.use(bodyParser.json());
-app.listen(process.env.PORT || 1337);
+app.listen(process.env.PORT || 1234);
 
 /*
 app.get('/api/login/:userName',function(req,res){
